@@ -1,0 +1,52 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="19.99999999999966" scrolly="20" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="getCameraParam" id="RY+JCp$_P,Nkp0=58esL" x="190" y="70">
+      <field name="TYPE">ORBIT_MAX_HORIZONTAL_ANGLE</field>
+      <value name="OBJECT">
+        <shadow type="objectList" id=":xa2WGM9(L;C1!%cfX,K">
+          <field name="FIELDNAME">Camera</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="math_number" id="j,g_}H``_QT_hdD~pr|G" x="810" y="230">
+      <field name="NUM">100</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="controls_ifelse" id="|%F-VdVA@RoC7GXm^9zQ" x="170" y="310">
+      <value name="IF0">
+        <block type="logic_compare" id="w%D1%bnvt^jAsR*/-qgi">
+          <field name="OP">LTE</field>
+          <value name="A">
+            <block type="getObjTransform" id="a12|0iw9*2QtBuU;r_y9">
+              <mutation xmlns="http://www.w3.org/1999/xhtml" useworldspace="false"></mutation>
+              <field name="MODE">rotation</field>
+              <field name="COORD">y</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="cFJ`Qdxgha=qX,^%RAI0">
+                  <field name="FIELDNAME">Camera</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+          <value name="B">
+            <block type="angle" id="RS):9K8=y41}zqz2!a=2">
+              <field name="ANGLE">45</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO0">
+        <block type="autoRotateCamera" id="KJ,^~X:UV+a?v}^3xfC!">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="4qd5sQkSDN(0a,*=h#f9">
+              <field name="NUM">2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="animateParamUpdate" id="?Zt*x0.F#pV~Y7*Hf;;p" x="130" y="570"></block>
+  </tab>
+  <editorsettings viewport-x="1113" viewport-y="36" viewport-w="746" viewport-h="468.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

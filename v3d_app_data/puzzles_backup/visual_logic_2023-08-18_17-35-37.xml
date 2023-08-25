@@ -1,0 +1,176 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="camera" type="CommonTab" active="true" scrollx="-74.99999999999943" scrolly="105.90000000000009" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="setTimer" id="7-tmqZ?JXPp|=U]+()!%" x="270" y="50">
+      <value name="ID">
+        <shadow type="text" id="XIQ_X(Sfucodoy6EsHgI">
+          <field name="TEXT">myTimer</field>
+        </shadow>
+      </value>
+      <value name="VALUE">
+        <shadow type="math_number" id="+y:4a5gTTjwm6K;;Ub9O">
+          <field name="NUM">10</field>
+        </shadow>
+      </value>
+      <value name="REPEAT">
+        <shadow type="math_number" id="r1P`!9%u;rm0u8_E^qqV">
+          <field name="NUM">Infinity</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="_=!(}pOvY{OshGlV{`{~">
+          <field name="ON_OFF">ON</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="PYev_Xk+nS[1RX*lK(W~">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="NOsIbb)cu|?*EqEBV0^/" inline="false" x="270" y="210">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Yjwyl~O+uyY4B,c;tdbq">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="allObjectList" id="?Z0:t1yId)YNB[%1Fxnq"></block>
+      </value>
+      <statement name="DO">
+        <block type="autoRotateCamera" id="3N:853Cf)u-(`fBh~1fz">
+          <field name="ON_OFF">OFF</field>
+          <value name="SPEED">
+            <shadow type="math_number" id="TNOr^nK!ce|y*A25_rRS">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="setTimer" id="O8CRR)I-{`be*iYF6z%g">
+              <value name="ID">
+                <shadow type="text" id="H*O`^:TY1Q:zcAcJ+GH|">
+                  <field name="TEXT">myTimer</field>
+                </shadow>
+              </value>
+              <value name="VALUE">
+                <shadow type="math_number" id="bX/`jB^IPsuNba;BE+.@">
+                  <field name="NUM">10</field>
+                </shadow>
+              </value>
+              <value name="REPEAT">
+                <shadow type="math_number" id="q}.)XuFja*j?VoQ]nDbB">
+                  <field name="NUM">Infinity</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="autoRotateCamera" id="{0+|7]:;NWs:`:bTet)t">
+                  <field name="ON_OFF">ON</field>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="rwPb],z-Q=mE?NVB7o/8">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setTimer" id="x9SeW}K4^u83%T#V/.=+">
+                      <value name="ID">
+                        <shadow type="text" id="T:ed5#n`2|eC5O//u~3*">
+                          <field name="TEXT">myTimer</field>
+                        </shadow>
+                      </value>
+                      <value name="VALUE">
+                        <shadow type="math_number" id="k(/b|r^@oJhT^GzKDHW?">
+                          <field name="NUM">14</field>
+                        </shadow>
+                      </value>
+                      <value name="REPEAT">
+                        <shadow type="math_number" id="$.(OSv88PCpFb{}?XlKK">
+                          <field name="NUM">Infinity</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="autoRotateCamera" id="(L7+RBiL,o8rmtO)IllY">
+                          <field name="ON_OFF">OFF</field>
+                          <value name="SPEED">
+                            <shadow type="math_number" id="vac(-1R$A!X=dbmlfUS(">
+                              <field name="NUM">-1</field>
+                            </shadow>
+                          </value>
+                          <next>
+                            <block type="setTimer" id="$8u~|08R6d/jQ/]_++7s">
+                              <value name="ID">
+                                <shadow type="text" id="K;}tC?p1P}D@e9FJ]i2x">
+                                  <field name="TEXT">myTimer</field>
+                                </shadow>
+                              </value>
+                              <value name="VALUE">
+                                <shadow type="math_number" id=".HAf3aQ6@4Pb|K5lcnN;">
+                                  <field name="NUM">3</field>
+                                </shadow>
+                              </value>
+                              <value name="REPEAT">
+                                <shadow type="math_number" id="]-OfC-?[M9rrd|D%3{7.">
+                                  <field name="NUM">Infinity</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="autoRotateCamera" id="R~!`.Ap-w$x2Un`xv=oC">
+                                  <field name="ON_OFF">ON</field>
+                                  <value name="SPEED">
+                                    <shadow type="math_number" id="Lane*=CFHys#;:yLeh;e">
+                                      <field name="NUM">-1</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="setTimer" id="8kk@Z@y20O41U_jl08+S">
+                                      <value name="ID">
+                                        <shadow type="text" id="L;szY9sY~70axlfBLPjn">
+                                          <field name="TEXT">myTimer</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="VALUE">
+                                        <shadow type="math_number" id=":^w=0(u?5{jTQQr7O50c">
+                                          <field name="NUM">14</field>
+                                        </shadow>
+                                      </value>
+                                      <value name="REPEAT">
+                                        <shadow type="math_number" id="4Kq|[UW9q0KYj%%KkxM+">
+                                          <field name="NUM">Infinity</field>
+                                        </shadow>
+                                      </value>
+                                      <statement name="DO">
+                                        <block type="autoRotateCamera" id="YYJ.BhYc#K9n;3rqdD]P">
+                                          <field name="ON_OFF">ON</field>
+                                          <value name="SPEED">
+                                            <shadow type="math_number" id="dgEqh7U#21WN}y$,5+WA">
+                                              <field name="NUM">-1</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </statement>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="controls_whileUntil" id="+ghEiQ^ak)g3MFM:i`Fr" x="110" y="670">
+      <field name="MODE">WHILE</field>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1101" viewport-y="37" viewport-w="746" viewport-h="468.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
