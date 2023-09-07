@@ -87,13 +87,14 @@ ul li:hover a {
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: #717070;
+	background-color: #333333;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
+
 .footer_banner {
 	background-color: #B3B3B3;
 	padding-top: 60px;
